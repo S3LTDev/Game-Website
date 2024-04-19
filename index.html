@@ -1,127 +1,127 @@
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name=og:image content=>
-    <title>18MX</title>
-    <link rel=icon type=image/x-icon href="static/img/favicon.png">
-    <link rel="stylesheet" href="./static/css/style.css">
-    <link rel="stylesheet" href="./static/css/jqx.base.css">
-    <link rel="stylesheet" href="./static/css/toastr.css">
-  </head>
-  
-  <div class="page-loader">
-    18MX
-  </div>
-  
-  <body>
-    <div class="app-container" style="display: none;">
-      <div class="app-header">
-        <div class="app-header-left">
-          <img src="static/img/logo.svg" class="app-icon">
-          <div class="dropdown" id="search-dropdown" style="float:left; width: 100%;">
-            <div class="search-wrapper">
-              <input class="search-input" type="text" placeholder="Search">
-              <i data-feather="search"></i>
-            </div>
-            <div class="search-dropdown-content participants">
-            </div>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=og:image content=>
+  <title>18MX</title>
+  <link rel=icon type=image/x-icon href="static/img/favicon.png">
+  <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="stylesheet" href="./static/css/jqx.base.css">
+  <link rel="stylesheet" href="./static/css/toastr.css">
+</head>
+
+<div class="page-loader">
+  18MX
+</div>
+
+<body>
+  <div class="app-container" style="display: none;">
+    <div class="app-header">
+      <div class="app-header-left">
+        <img src="static/img/logo.svg" class="app-icon">
+        <div class="dropdown" id="search-dropdown" style="float:left; width: 100%;">
+          <div class="search-wrapper">
+            <input class="search-input" type="text" placeholder="Search">
+            <i data-feather="search"></i>
           </div>
-        </div>
-        <div class="app-header-right">
-          <button class="mobile-nav" title="Home" aria-label="Home">
-            <a href="index.html"><i data-feather="grid"></i></a>
-          </button>
-          <button class="mobile-nav" title="Events" aria-label="Events">
-            <a href="logs.html"><i data-feather="calendar"></i></a>
-          </button>
-          <button class="mobile-nav" title="Shop" aria-label="Shop">
-            <a href="download.html"><i data-feather="shopping-cart"></i></a>
-          </button>
-          <button class="mode-switch" title="Themes" aria-label="Themes">
-            <i data-feather="moon"></i>
-          </button>
-          <button class="profile-btn" href="https://github.com/s3ltdev/Game-Website" title="Your profile"
-            aria-label="Your profile">
-            <span>18MX V1.0.0</span>
-          </button>
-          </a>
+          <div class="search-dropdown-content participants">
+          </div>
         </div>
       </div>
-      <div class="app-content">
-        <div class="app-sidebar">
-          <a href="./index.html" class="app-sidebar-link " title="Home" aria-label="Go to home">
-            <i data-feather="grid"></i>
-          </a>
-          <a href="./logs.html" class="app-sidebar-link" title="Events" aria-label="Go to lpgs">
-            <i data-feather="calendar"></i>
-          </a>
-          <a href="./download.html" class="app-sidebar-link " title="Shop" aria-label="Go to events">
-            <i data-feather="shopping-cart"></i>
-          </a>
+      <div class="app-header-right">
+        <button class="mobile-nav" title="Home" aria-label="Home">
+          <a href="index.html"><i data-feather="grid"></i></a>
+        </button>
+        <button class="mobile-nav" title="Events" aria-label="Events">
+          <a href="logs.html"><i data-feather="calendar"></i></a>
+        </button>
+        <button class="mobile-nav" title="Shop" aria-label="Shop">
+          <a href="download.html"><i data-feather="download"></i></a>
+        </button>
+        <button class="mode-switch" title="Themes" aria-label="Themes">
+          <i data-feather="moon"></i>
+        </button>
+        <button class="profile-btn" href="https://github.com/s3ltdev/Game-Website" title="Your profile"
+          aria-label="Your profile">
+          <span>18MX V1.0.0</span>
+        </button>
+        </a>
+      </div>
+    </div>
+    <div class="app-content">
+      <div class="app-sidebar">
+        <a href="./index.html" class="app-sidebar-link active" title="Home" aria-label="Go to home">
+          <i data-feather="grid"></i>
+        </a>
+        <a href="./logs.html" class="app-sidebar-link" title="Events" aria-label="Go to lpgs">
+          <i data-feather="calendar"></i>
+        </a>
+        <a href="./download.html" class="app-sidebar-link " title="Shop" aria-label="Go to events">
+          <i data-feather="download"></i>
+        </a>
+      </div>
+      <div class="projects-section">
+        <div class="projects-section-header" id="page-title">
+          <p>Home</p>
         </div>
-        <div class="projects-section">
-          <div class="projects-section-header" id="page-title">
-            <p>Home</p>
-          </div>
-          <div class="project-boxes jsListView dontresize">
-            <a href="">
-              <div class="project-box-wrapper">
-                <div class="project-box random-blue">
-                  <div class="project-box-header">
-                    <span>Find Out More About 18MX.</span>
-                  </div>
-                  <div class="project-box-content-header">
-                    <p class="box-content-header">Information</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-  
-            <a href="">
-              <div class="project-box-wrapper">
-                <div class="project-box random-blue">
-                  <div class="project-box-header">
-                    <span>The backstory Behind The Game & Character.</span>
-                  </div>
-                  <div class="project-box-content-header">
-                    <p class="box-content-header">Synopsis</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-  
+        <div class="project-boxes jsListView dontresize">
+          <a href="">
             <div class="project-box-wrapper">
-              <hr>
-            </div>
-  
-            <a href="/download.html" class="project-a">
-              <div class="project-box-wrapper">
-                <div class="project-box random-blue">
-                  <div class="project-box-content-header">
-                    <!-- <p class="box-content-header">Vixxy Chatting Lounge</p> -->
-                    <img class="box-content-subheader" src="./static/img/logo.svg" alt="" srcset="">
-                  </div>
-                  <div class="box-progress-wrapper">
-                    <p>
-                    <h1>Download</h1>
-                    <h3>Click Here To Dowload 18MX.</h3>
-                    </p>
-                  </div>
+              <div class="project-box random-blue">
+                <div class="project-box-header">
+                  <span>Find Out More About 18MX.</span>
+                </div>
+                <div class="project-box-content-header">
+                  <p class="box-content-header">Information</p>
                 </div>
               </div>
-            </a>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="project-box-wrapper">
+              <div class="project-box random-blue">
+                <div class="project-box-header">
+                  <span>The backstory Behind The Game & Character.</span>
+                </div>
+                <div class="project-box-content-header">
+                  <p class="box-content-header">Synopsis</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <div class="project-box-wrapper">
+            <hr>
           </div>
+
+          <a href="/download.html" class="project-a">
+            <div class="project-box-wrapper">
+              <div class="project-box random-blue">
+                <div class="project-box-content-header">
+                  <!-- <p class="box-content-header">Vixxy Chatting Lounge</p> -->
+                  <img class="box-content-subheader" src="./static/img/logo.svg" alt="" srcset="">
+                </div>
+                <div class="box-progress-wrapper">
+                  <p>
+                  <h1>Download</h1>
+                  <h3>Click Here To Dowload 18MX.</h3>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
-  </body>
-  
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/feather-icons@4.29.0/dist/feather.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-  <script src="./static/js/index.js"></script>
-  <script src="./static/js/utils.js"></script>
-  <script src="./static/js/toastr.js"></script>
-  
-  </html>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/feather-icons@4.29.0/dist/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="./static/js/index.js"></script>
+<script src="./static/js/utils.js"></script>
+<script src="./static/js/toastr.js"></script>
+
+</html>
